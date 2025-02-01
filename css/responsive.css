@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    .mensaje-absolute {
+        width: 80%;
+        /* Más ancho en pantallas pequeñas */
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .mensaje-absolute p {
+        font-size: 1.2rem;
+        line-height: 24px;
+    }
+
+    .mensaje-absolute a {
+        font-weight: 400;
+    }
+}
+
+/* ✅ RESPONSIVE PARA CELULARES PEQUEÑOS */
+@media screen and (max-width: 480px) {
+    .mensaje-absolute {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .mensaje-absolute p {
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .mensaje-absolute a {
+
+        font-weight: 300;
+    }
+}
